@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Theoretical physics, Polymer condensed matter theory, Beijing Jiao Tong University (BJTU), expected June 2024
+* B.S. in Optoelectronic Information Science and Engineering (Science), Beijing Jiao Tong University (BJTU),  GPA: 3.88/4.00
+* B.S. in Computer Science and Technology, Beijing Jiao Tong University (BJTU),  Dual Degree, GPA: 3.74/4.00
 
-Work experience
+<!-- Work experience
 ======
 * Summer 2015: Research Assistant
   * Github University
@@ -25,18 +25,15 @@ Work experience
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Professor Hub -->
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Fortran == Python > C/C++ > Java
+* Proficient in Polymer Self-Consistent Field Theory, Monte Carlo Simulations, Molecular Dynamics Simulations, and Neural Network Construction and Training.
+* Experience in Building, Managing, and Utilizing Linux Distributed Computing Platforms.
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -56,4 +53,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
