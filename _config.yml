@@ -80,6 +80,8 @@ analytics:
 
 # Site Author
 author:
+
+
   name             : "Shengda Zhao (赵胜达)"
   avatar           : "profile-ZSD.jpg"
   bio              : "Focuses on polymer condensed matter physics and neural networks"
@@ -87,7 +89,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : 21121598@bjtu.edu.cn
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
