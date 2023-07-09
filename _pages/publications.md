@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
+<!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
@@ -13,4 +13,8 @@ author_profile: true
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+
+## Other theoretical work
+
+- Yangjun Yan, **Shengda Zhao**, Yajie Zhang, *et al*. Molecular Orientation Dependent Exciton Separation in Optimized Single Component Y6 Organic Solar Cells. Solar RRL, 2023.
