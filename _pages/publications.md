@@ -17,4 +17,4 @@ author_profile: true
 
 ## Other theoretical work
 
-- Yangjun Yan, **Shengda Zhao**, Yajie Zhang, *et al*. Molecular Orientation Dependent Exciton Separation in Optimized Single Component Y6 Organic Solar Cells. Solar RRL, 2023. [DOI:10.1002/solr.202300342.]{https://doi.org/10.1002/solr.202300342}
+- Yangjun Yan, **Shengda Zhao**, Yajie Zhang, *et al*. Molecular Orientation Dependent Exciton Separation in Optimized Single Component Y6 Organic Solar Cells. Solar RRL, 2023. [DOI:10.1002/solr.202300342.](https://doi.org/10.1002/solr.202300342)
