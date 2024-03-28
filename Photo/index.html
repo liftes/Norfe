@@ -30,16 +30,79 @@
             }
             .notice-section h2 {
                 color: #000a58; /* 标题颜色 */
-                font-size: 30px; /* 适当增大标题的字号以区分 */
+                font-size: 48px; /* 适当增大标题的字号以区分 */
+                /* 行高，调整行间距 */
+                line-height: 1.6;
             }
             .notice-section p {
                 color: #000; /* 普通文本颜色 */
-                margin: 18px 0; /* 添加上下边距 */
+                margin: 7px 0; /* 添加上下边距 */
+                /* 行高，调整行间距 */
+                line-height: 1.25;
             }
             .notice-section .important-text {
                 color: #0456d2; /* 强调文本颜色 */
                 font-weight: bold; /* 加粗 */
             }
+
+            .hexagon a {
+                color: #ffffff; /* 文本颜色 */
+                font-size: 22px; /* 文本大小 */
+                text-decoration: none; /* 移除下划线 */
+            }
+            .hexagon a:hover {
+                color: #007bff; /* 鼠标悬停时的文本颜色 */
+                text-decoration: underline; /* 鼠标悬停时添加下划线 */
+            }
+            .hexagon a {
+                display: block; /* 使链接填充整个六边形容器 */
+                text-align: center; /* 文本水平居中 */
+                padding: 12px 0; /* 调整这个值直到文本看起来垂直居中 */
+            }
+
+            #about .content-block-cyan .container .row .col-md-6 {
+                /* 调整内间距 */
+                padding: 20px;
+            }
+
+            #about h2 {
+                /* 标题颜色 */
+                color: #333333;
+                /* 字号 */
+                font-size: 62px;
+                /* 行高，调整行间距 */
+                line-height: 1.2;
+                /* 字体粗细 */
+                font-weight: bold;
+                /* 文本对齐方式 */
+                text-align: center;
+                /* 文本阴影（可选） */
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+                /* 字间距（可选） */
+                letter-spacing: 1px;
+            }
+
+            #about p {
+                /* 段落文本颜色 */
+                color: #666666;
+                /* 字号 */
+                font-size: 18px;
+                /* 行高，调整行间距 */
+                line-height: 1.0;
+                /* 文本对齐方式 */
+                text-align: center;
+                /* 段落间距，上下间距 */
+                margin: 10px 0;
+            }
+
+            .block-body .blog-post .date {
+                font-size: 16px; /* 设置您希望的字号大小 */
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
         </style>
 
     </head>
@@ -61,11 +124,11 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#carousel-header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#social">Social</a></li>
+                        <li class="active"><a href="#carousel-header">主页</a></li>
+                        <li><a href="#about">个人信息</a></li>
+                        <li><a href="#projects">最近照片</a></li>
+                        <li><a href="#blog">约拍须知</a></li>
+                        <li><a href="#social">社交平台</a></li>
                     </ul>
                 </div><!--/.navbar-collapse -->
             </div>
@@ -86,11 +149,11 @@
                 </div> -->
 
                 <div class="item active">
-                    <img src="img-Norfe/slide1.jpg" alt="">
+                    <img src="img-Norfe/slide1.jpeg" alt="">
                 </div>
 
                 <div class="item">
-                    <img src="img-Norfe/slide2.jpg" alt="">
+                    <img src="img-Norfe/slide2.jpeg" alt="">
                 </div>
             </div>
 
@@ -118,6 +181,16 @@
             </div>
         </div>
 
+        <div id="social" class="content-block">
+            <div class="container text-center">
+                <!-- Instagram Link -->
+                <div class="hexagon"><a href="https://www.instagram.com/norfezhao/">Ins</a></div>
+                <!-- Xiaohongshu (RED) Link -->
+                <div class="hexagon"><a href="https://www.xiaohongshu.com/user/profile/65fb8d8f000000000b00e2ce?xhsshare=CopyLink&appuid=65fb8d8f000000000b00e2ce&apptime=1711600609">小红书</a></div>
+                <!-- Tuchong Link -->
+                <div class="hexagon"><a href="https://tuchong.com/10023616/">图虫</a></div>
+            </div>
+        </div>
 
         <div id="projects" class="recent-projects">
             <div class="recent-projects-title">
@@ -127,7 +200,7 @@
             <div class="recent-projects-content content-block-gray">
                 <div id="owl-example" class="owl-carousel">
                     <div>
-                        <img src="img-Norfe/Recent/Recent1.jpeg" alt="">
+                        <img src="img-Norfe/Recent/Recent5.jpeg" alt="">
                         <!-- <a href="#">Cartoon de loop</a> -->
                     </div>
                     <div>
@@ -143,7 +216,7 @@
                         <!-- <a href="#">Tools</a> -->
                     </div>
                     <div>
-                        <img src="img-Norfe/Recent/Recent5.jpeg" alt="">
+                        <img src="img-Norfe/Recent/Recent1.jpeg" alt="">
                         <!-- <a href="#">Sunrise in west</a> -->
                     </div>
                     <div>
@@ -171,7 +244,7 @@
                     </h2> -->
               
                     <div class="notice-section">
-                        <h2>付款须知</h2>
+                        <h2>约拍须知</h2>
                         <!-- <br> -->
                         <p>请确保交易达成前认真阅读以下内容</p>
                         <!-- <br> -->
